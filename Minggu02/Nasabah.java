@@ -4,7 +4,7 @@ public class Nasabah {
     public String nama;
     public int saldo;
 
-    public void tampilkanSaldo() {
-        System.out.println("Saldo Anda adalah " + saldo);
+    public void tampilkanSaldo(String mataUang) {
+        System.out.println("Saldo " + nama + " adalah " + mataUang + saldo);
     }
 }
