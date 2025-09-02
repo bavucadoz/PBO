@@ -1,4 +1,4 @@
-package Minggu1.SepedaDemo;
+package Minggu01.SepedaDemo;
 
 public class SepedaGunung extends Sepeda {
     private String tipeSuspensi;
