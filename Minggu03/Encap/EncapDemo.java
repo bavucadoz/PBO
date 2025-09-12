@@ -18,7 +18,9 @@ public class EncapDemo {
 
     public void setAge(int newAge) {
         if (newAge > 30) {
-            age = 30;
+            age = 30; //batas maksimal
+        } else if (newAge < 18) {
+            age = 18; //batas minimal
         } else {
             age = newAge;
         }
