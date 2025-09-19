@@ -35,5 +35,6 @@ public class TestKoperasi {
         System.out.println("\nMembayar angsuran 3.000.000"); 
         donny.angsur(3000000); 
         System.out.println("Jumlah pinjaman saat ini: " + donny.getJumlahPinjaman()); 
+        input.close();
     }
 }
