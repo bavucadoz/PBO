@@ -7,10 +7,10 @@ public class Mobil {
     public Mobil() {
     }
 
-    public void setNama(String nama) {
+    public void setMerk(String nama) {
         this.nama = nama;
     }
-    public String getNama() {
+    public String getMerk() {
         return nama;
     }
 
