@@ -5,9 +5,8 @@ public class Main {
         Mesin mesin = new Mesin(150, "Pertalite");
         Ban ban = new Ban(17, "Tubeless");
 
-        Pengendara[] pgdr = {
-            new Pengendara("Bayu", 12345),
-            new Pengendara("Andi", 67890)
+        Pengendara[] pgdr = { 
+            new Pengendara("Bayu", 12345)
         };
 
         Motor motor = new Motor("Honda", "Merah", mesin, 120, ban, pgdr);
