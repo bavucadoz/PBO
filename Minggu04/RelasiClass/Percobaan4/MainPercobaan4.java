@@ -5,6 +5,11 @@ public class MainPercobaan4 {
         Penumpang p = new Penumpang("12345", "Mr. Krab");
         Gerbong gerbong = new Gerbong("A", 10);
         gerbong.setPenumpang(p, 1);
+
+        Penumpang budi = new Penumpang("00001", "Budi");
+        gerbong.setPenumpang(budi, 1);
+
         System.out.println(gerbong.info());
+
     }
 }
