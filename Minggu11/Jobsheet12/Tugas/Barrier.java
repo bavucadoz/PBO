@@ -1,6 +1,6 @@
 package Minggu11.Jobsheet12.Tugas;
 
-public class Barrier {
+public class Barrier implements Destroyable {
     private int strength;
 
     public Barrier(int strength) {
@@ -13,7 +13,12 @@ public class Barrier {
         return strength;
     }
 
+    @Override
+    public void destroyed() {
+        strength -= (strength * 0.1);
+    }
+
     public String getBarrierInfo() {
-        return "Barrier Strength = " + strength;
+        return "Barrier Strength = " + strength + "\n";
     }
 }
